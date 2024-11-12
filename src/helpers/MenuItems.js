@@ -5,7 +5,7 @@ import Vanatoresc from "../assets/images/SKvanatoresc.png"
 import Veggie from "../assets/images/starkebab_veggie.png"
 
 
-export const MenuItem = [
+export const MenuItems = [
     {
         name: "Shawarma de Pui",
         image: Pui,

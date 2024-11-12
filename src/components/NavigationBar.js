@@ -22,9 +22,9 @@ function NavigationBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='ms-auto'>
                         <Nav.Link to="/" as={Link} className='text-white hover-efect'>Home</Nav.Link>
-                        <Nav.Link to="" className='text-white hover-efect'>Menu</Nav.Link>
-                        <Nav.Link to="" className='text-white hover-efect'>About</Nav.Link>
-                        <Nav.Link to="" className='text-white hover-efect'>Contact</Nav.Link>
+                        <Nav.Link to="/menu" as={Link} className='text-white hover-efect'>Menu</Nav.Link>
+                        <Nav.Link to="/about" as={Link} className='text-white hover-efect'>About</Nav.Link>
+                        <Nav.Link to="/contact" as={Link} className='text-white hover-efect'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
