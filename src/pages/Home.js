@@ -1,14 +1,14 @@
-import React from 'react'
-import Banner from "../assets/images/shawarma_banner.jpg"
-import {Link} from "react-router-dom";
-import "../styles/home.css"
+import React from 'react';
+import Banner from "../assets/images/shawarma_banner.jpg";
+import { Link } from "react-router-dom";
+import "../styles/home.css";
 
 function Home() {
     return (
-        <div className="container-fluid col-xxl-8 px-4 py-5 main_info">
+        <div className="container-fluid col-xxl-8 px-4 py-5 main_info vh-100">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div className="col-10 col-sm-8 col-lg-6">
-                    <img src={Banner} alt="Bootstrap Themes" width="400" height="500" loading="lazy" />
+                <div className="col-10 col-sm-8 col-lg-6 d-none d-lg-block"> 
+                    <img src={Banner} alt="banner" width="400" height="500" loading="lazy" />
                 </div>
                 <div className="col-lg-6">
                     <h1 className="display-5 fw-bold lh-1 mb-3">Just Eat It</h1>
@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Home
+export default Home;

@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div className="cover-container d-flex vh-100 p-3 mx-auto flex-column">
             <main className="px-3">
                 <h1 className='my-2'>About us</h1>
                 <p className="lead">
